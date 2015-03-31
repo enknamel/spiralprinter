@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+require 'spiral_printer'
+
+if $0 == __FILE__
+  spiral_printer = SpiralPrinter.new ARGV
+  spiral_printer.print
+end
