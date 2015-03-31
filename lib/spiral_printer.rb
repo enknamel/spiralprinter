@@ -22,6 +22,6 @@ class SpiralPrinter
     graph = Graph.new spiral_size
     graph.build
     printer = Printer.new graph
-    printer.print
+    printer.process
   end
 end
